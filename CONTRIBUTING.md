@@ -12,12 +12,12 @@
 6. **动作区分**：`running`（第 7 行）是"正在干活"，不是原地跑步，必须与 `idle` 明显可辨；`waiting` 要能读出"在等用户输入"；`running-right` / `running-left` 的移动方向和节奏必须正确且交替。
 7. **画面干净**：透明背景，无投影、发光、速度线、尘土、飘散粒子、文字、标尺线、棋盘格背景，也没有脱离身体的碎片或游离像素。
 8. **一致性**：所有 11 行保持同一身份、同一画风、同一配色、同一比例与同一道具。
-9. **预览图**：随包提供 `preview.png`（11 行总览），方便在 GitHub 上直接审阅。
+9. **预览图**：随包提供 `preview.png`（11 行总览）与 `look-loop.gif`（16 个视线朝向循环），方便在 GitHub 上直接审阅。
 
 ## 提交流程
 
 1. 从最新 `main` 切出分支，例如 `feat/<pet-id>`。
-2. 新增 `pets/<pet-id>/`，包含 `pet.json`、`spritesheet.webp`、`preview.png`。
+2. 新增 `pets/<pet-id>/`，包含 `pet.json`、`spritesheet.webp`、`preview.png`，建议同时附上 `look-loop.gif`。
 3. 更新 `README.md` 的宠物列表。
 4. 本地跑校验并确保通过：
 

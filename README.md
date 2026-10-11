@@ -11,6 +11,7 @@ pets/<pet-id>/
   pet.json            # 宠物清单（id / displayName / description / spriteVersionNumber / spritesheetPath）
   spritesheet.webp    # 1536x2288 图集，单元格 192x208，背景透明
   preview.png         # 11 行动作总览图，便于在 GitHub 上直接预览
+  look-loop.gif       # 16 个视线朝向的循环预览
 tools/validate_pet.py # 离线校验器
 .github/workflows/   # 每次 push / PR 自动校验
 ```
